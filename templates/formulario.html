@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Forms</title>
+    <link href="/static/style.css" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div>
+        </div>
+        <h1>Formulário de Inscrição</h1>
+        <form action="/" method="get">
+            <label for ="nome_user">Nome:</label>
+            <input type="text" id="nome_user" name="nome_user" required><br>
+            
+            <label for ="telefone">Telefone</label>
+            <input type="text" id="telefone" name="telefone" required><br>
+            
+            <label for ="email_user">Email:</label>
+            <input type="email" id="email" name="email_user" required></br>
+
+            <label for ="endereco">Endereço</label>
+            <input type="text" id="endereco" name="endereco" required><br>
+
+            <label for="curso">Curso</label>
+            <select name="curso" id="curso">
+                <option value="programacao">Programação</option>
+                <option value="design">Design</option>
+                <option value="eletronica">Eletrônica</option>
+            </select><br>
+            <label for="adesao">Adesão:</label>
+            <input type="checkbox" id="adesao" name="adesao" required><br>
+            <button type="submit">Enviar os gruli gruli?</button>
+        </form>
+    </main>
+</body>
+</html>
